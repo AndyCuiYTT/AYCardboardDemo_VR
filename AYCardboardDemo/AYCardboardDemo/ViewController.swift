@@ -26,16 +26,16 @@ class ViewController: UIViewController ,GVRWidgetViewDelegate{
         panoramaView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(panoramaView)
         
-//        videoView.load(from: URL.init(string: "http://v1.mukewang.com/a45016f4-08d6-4277-abe6-bcfd5244c201/L.mp4"))
+        videoView.load(from: URL.init(string: "http://v1.mukewang.com/a45016f4-08d6-4277-abe6-bcfd5244c201/L.mp4"))
         
 
 
         
-        let url: URL = URL.init(fileURLWithPath: Bundle.main.path(forResource: "demo.m4v", ofType: nil)!)
+//        let url: URL = URL.init(fileURLWithPath: Bundle.main.path(forResource: "demo.m4v", ofType: nil)!)
         
         
         
-        videoView.load(from: url)
+//        videoView.load(from: url)
         videoView.delegate = self
         videoView.enableCardboardButton = true
         videoView.enableFullscreenButton = true

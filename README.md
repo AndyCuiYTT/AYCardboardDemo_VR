@@ -1,2 +1,2 @@
 # AYCardboardDemo_VR
-sssss
+> 集成 [Google VR](https://developers.google.com/vr/)
